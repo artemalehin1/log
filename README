@@ -1,0 +1,79 @@
+[17:45:11] [debug] Server crashed due to an unknown error
+[17:45:11] [debug] Native backtrace:
+[17:45:11] [debug] #0 b741cf7f in _Z13GetStackTraceRSt6vectorI10StackFrameSaIS0_EEPv () in plugins/crashdetect.so
+[17:45:11] [debug] #1 b741581d in _ZN11CrashDetect20PrintNativeBacktraceERSoRKN2os7ContextE () in plugins/crashdetect.so
+[17:45:11] [debug] #2 b7415e48 in _ZN11CrashDetect20PrintNativeBacktraceERKN2os7ContextE () in plugins/crashdetect.so
+[17:45:11] [debug] #3 b74175dc in _ZN11CrashDetect7OnCrashERKN2os7ContextE () in plugins/crashdetect.so
+[17:45:11] [debug] #4 b741c79f in ?? () in plugins/crashdetect.so
+[17:45:11] [debug] #5 b7789600 in ?? ()
+[17:45:11] [debug] #6 b75a0546 in ?? () in /lib/libc.so.6
+[17:45:11] [debug] #7 b239eefa in _ZN5Hooks21GetRakServerInterfaceEv () in plugins/pawnraknet.so
+[17:45:11] [debug] #8 080af514 in ?? () in ./samp03svr
+[17:45:11] [debug] #9 080aa0e6 in ?? () in ./samp03svr
+[17:45:11] [debug] #10 b74632d3 in __libc_start_main () in /lib/libc.so.6
+[17:45:11] [debug] #11 0804b4e1 in ?? () in ./samp03svr
+[17:45:11] [debug] Registers:
+[17:45:11] [debug] EAX: aa33241b EBX: b75a0540 ECX: 33241be9 EDX: 0806ca35
+[17:45:11] [debug] ESI: 08bf4794 EDI: b24ad000 EBP: b24ae5a0 ESP: bfc51b58
+[17:45:11] [debug] EIP: b75a0546 EFLAGS: 00000283
+[17:45:11] [debug] Stack:
+[17:45:11] [debug] ESP+00000000: b24ad000 b239eefa 0806ca30 08bf47b8
+[17:45:11] [debug] ESP+00000020: 00000002 08bf9e30 08bf6120 00000000
+[17:45:11] [debug] ESP+00000040: bfc51ee8 080af514 08bb9170 08159aa0
+[17:45:11] [debug] ESP+00000060: 00000000 00000000 00000000 00000000
+[17:45:11] [debug] ESP+00000080: 00000000 00000000 00000000 00000000
+[17:45:11] [debug] ESP+000000a0: 00000000 00000000 00000000 00000000
+[17:45:11] [debug] ESP+000000c0: 00000000 00000000 00000000 00000000
+[17:45:11] [debug] ESP+000000e0: 00000000 00000000 00000000 00000000
+[17:45:11] [debug] ESP+00000100: 00000000 00000000 00000000 00000000
+[17:45:11] [debug] ESP+00000120: 00000000 00000000 00000000 bfc51cb0
+[17:45:11] [debug] ESP+00000140: bfc51d18 080a10af bfc51cf4 08bb9170
+[17:45:11] [debug] ESP+00000160: 696d696c 2e646574 73006f73 0800006f
+[17:45:11] [debug] ESP+00000180: 00000007 08bba790 00000007 08bb9610
+[17:45:11] [debug] ESP+000001a0: 00000007 00000009 bfc51da0 0000000b
+[17:45:11] [debug] ESP+000001c0: bfc51eb8 080a07e6 08bba798 ffffffff
+[17:45:11] [debug] ESP+000001e0: 00000000 08bb9170 0000000b 08bb9f08
+[17:45:11] [debug] ESP+00000200: 0000000b bfc51db0 08159ad6 08bb9170
+[17:45:11] [debug] ESP+00000220: bfc51db0 00000000 08bba79c 08bba778
+[17:45:11] [debug] ESP+00000240: bfc51ee8 0809fc87 73726576 006e6f69
+[17:45:11] [debug] ESP+00000260: 00005e70 b7610420 00000000 b7610450
+[17:45:11] [debug] ESP+00000280: 00000000 00000000 00000000 00000000
+[17:45:11] [debug] ESP+000002a0: b74c1699 b7610000 b7610420 000039e0
+[17:45:11] [debug] ESP+000002c0: 00000000 00000000 00000000 00000000
+[17:45:11] [debug] ESP+000002e0: b7610450 00000000 0000270a 000039e0
+[17:45:11] [debug] ESP+00000300: 0000001c 00000077 00000003 00000071
+[17:45:11] [debug] ESP+00000320: b75c9edb 00000000 00000000 00000000
+[17:45:11] [debug] ESP+00000340: 00000000 b7610000 b7610420 000039e0
+[17:45:11] [debug] ESP+00000360: bfc51ee8 b74c5928 b7756000 000039e0
+[17:45:11] [debug] ESP+00000380: bfc51ee8 08bf6120 08159ad6 00000002
+[17:45:11] [debug] ESP+000003a0: 00000006 08159c6d 00000000 00000000
+[17:45:11] [debug] ESP+000003c0: b775bd40 b7707026 b775c838 b775357c
+[17:45:11] [debug] ESP+000003e0: 000003e7 016dcbb1 656d6167 65646f6d
+[17:45:11] [debug] Loaded modules:
+[17:45:11] [debug] 00000000 - 00187d1f samp03svr
+[17:45:11] [debug] b778b000 - b778b704 
+[17:45:11] [debug] b7779000 - b777b6a4 /lib/libdl.so.2
+[17:45:11] [debug] b775e000 - b7777ad3 /lib/libpthread.so.0
+[17:45:11] [debug] b7672000 - b7763e88 /lib/libstdc++.so.6
+[17:45:11] [debug] b7630000 - b76711f4 /lib/libm.so.6
+[17:45:11] [debug] b7614000 - b762d6f8 /lib/libgcc_s.so.1
+[17:45:11] [debug] b7449000 - b761bb73 /lib/libc.so.6
+[17:45:11] [debug] b778a000 - b77ad110 /lib/ld-linux.so.2
+[17:45:11] [debug] b73fd000 - b74453d4 plugins/crashdetect.so
+[17:45:11] [debug] b724e000 - b74074d5 plugins/sampvoice.so
+[17:45:11] [debug] b5006000 - b50159b4 plugins/sscanf.so
+[17:45:11] [debug] b4e5a000 - b500f168 plugins/pawncmd.so
+[17:45:11] [debug] b4e4d000 - b4e59011 plugins/gvar.so
+[17:45:11] [debug] b7781000 - b77847a0 plugins/TOTP.so
+[17:45:11] [debug] b4dbe000 - b4e510a1 plugins/pawnbots.so
+[17:45:11] [debug] b4c0f000 - b4dc7bb8 plugins/pawnregex.so
+[17:45:11] [debug] b4bb0000 - b4c0eaec plugins/mysql.so
+[17:45:11] [debug] b4b8d000 - b4bae108 /home/server62455/game/plugins/../log-core.so
+[17:45:11] [debug] b4b7a000 - b4b80d90 /lib/librt.so.1
+[17:45:11] [debug] b458b000 - b4ba4168 /usr/lib/mysql/libmysqlclient.so.18
+[17:45:11] [debug] b2577000 - b2588748 /lib/libnss_files.so.2
+[17:45:11] [debug] b24b1000 - b2576740 plugins/streamer.so
+[17:45:11] [debug] b22dc000 - b24bc1d0 plugins/pawnraknet.so
+[17:45:11] [debug] b22cf000 - b22d97b8 plugins/limited.so
+[17:45:11] [debug] b22c8000 - b22ccd34 /lib/libnss_dns.so.2
+[17:45:11] [debug] b22af000 - b22c6f94 /lib/libresolv.so.2
